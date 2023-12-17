@@ -19,7 +19,7 @@ class NotesViewModel(
                 }
             }
             is NotesEvent.SaveNote -> {
-                TODO()
+                // TODO: Start from here: https://youtu.be/5pjdE2wnJ0s?si=POKjHxMISf8mo8qS&t=1311
             }
             NotesEvent.SortNotes -> {
                 isShortedByDateAdded.value = !isShortedByDateAdded.value
